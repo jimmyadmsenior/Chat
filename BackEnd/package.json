@@ -1,9 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "descripttion": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,4 +15,4 @@
     "dotenv": "^16.4.7",
     "ws": "^8.18.1"
   }
-}
+} 
